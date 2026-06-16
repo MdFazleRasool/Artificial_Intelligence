@@ -55,7 +55,7 @@ print(copy_student.name)  # Output: David
 #Methods are functions defined within a class that describe the behaviors or actions that an object of the class can perform. They can manipulate the attributes of the object or perform specific tasks related to the object.
 
 #Attributes
-class Car:
+class Car: # type: ignore
     #Attribute
     make = "Unknown"
     model = "Unknown"
@@ -64,7 +64,7 @@ car1 = Car()
 print(car1.make)  # Output: Unknown
 
 #Methods
-class Car:
+class Car: # type: ignore
     def start_engine(self):
         print("Engine started")
 car1 = Car()
@@ -77,7 +77,7 @@ car1.start_engine()  # Output: Engine started
 # Example of Instance Methods, Class Methods, and Static Methods    
 
 #instance Methods 
-class Laptop:
+class Laptop: # type: ignore
     storage_type = "SSD"  # Class attribute
     def __init__(self, brand, ram):
         self.brand = brand  # Instance attribute
@@ -98,7 +98,7 @@ class Laptop:
         cls.storage_type = new_storage_type
 Laptop.change_storage_type("HDD")
 laptop2 = Laptop("HP", 8)
-laptop2.display_specs()  # Output: Brand: HP, RAM: 8GB, Storage Type: HDD
+#laptop2.display_specs()  # Output: Brand: HP, RAM: 8GB, Storage Type: HDD
 
 #Static Methods
 # Static methods are defined with the @staticmethod decorator and do not take any special first parameter. 

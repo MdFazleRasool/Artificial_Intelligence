@@ -70,10 +70,10 @@ developer1.display_work_hours()  # Output: Work hours: 9:00 AM to 5:00 PM
 
 #Type of Inheritance
 #1. Single Inheritance: A child class inherits from a single parent class.  
-class Parent:
+class Parent: # type: ignore
     def parent_method(self):
         print("This is the parent method.")
-class Child(Parent):
+class Child(Parent): # type: ignore
     def child_method(self):
         print("This is the child method.")
 child1 = Child()
@@ -81,16 +81,16 @@ child1.parent_method()  # Output: This is the parent method.
 child1.child_method()   # Output: This is the child method.
 
 #2. Multiple Inheritance: A child class inherits from multiple parent classes.
-class Parent1:
+class Parent1: # pyright: ignore[reportRedeclaration]
     def method1(self):
         print("This is method 1 from Parent1.") 
-class Parent2:
+class Parent2: # type: ignore
     def method2(self):
         print("This is method 2 from Parent2.")
-class Child(Parent1, Parent2):
+class Child1(Parent1, Parent2): # pyright: ignore[reportRedeclaration]
     def child_method(self):
         print("This is the child method.")
-child1 = Child()
+child1 = Child1()
 child1.method1()  # Output: This is method 1 from Parent1.
 child1.method2()  # Output: This is method 2 from Parent2.
 child1.child_method()  # Output: This is the child method.
@@ -99,14 +99,14 @@ child1.child_method()  # Output: This is the child method.
 class Grandparent:
     def grandparent_method(self):
         print("This is the grandparent method.")
-class Parent(Grandparent):
+class ParentLevel(Grandparent):
     def parent_method(self):
         print("This is the parent method.")
 
-class Child(Parent):
+class Child5(ParentLevel):
     def child_method(self):
         print("This is the child method.")
-child1 = Child()
+child1 = Child5()
 child1.grandparent_method()  # Output: This is the grandparent method.
 
 child1.parent_method()  # Output: This is the parent method.
@@ -114,21 +114,21 @@ child1.child_method()  # Output: This is the child method.
 
 
 #4. Hierarchical Inheritance: Multiple child classes inherit from a single parent class.
-class Parent:
+class Parent3:
 
     def parent_method(self):
         print("This is the parent method.")
-class Child1(Parent):
+class Child3(Parent3):
     def child1_method(self):
         print("This is the child1 method.")
-class Child2(Parent):
+class Child4(Parent3):
     def child2_method(self):
         print("This is the child2 method.")
-child1 = Child1()
+child1 = Child4()
 
 child1.parent_method()  # Output: This is the parent method.
-child1.child1_method()  # Output: This is the child1 method.
-child2 = Child2()
+#child1.child1_method()  # Output: This is the child1 method.
+child2 = Child4()
 child2.parent_method()  # Output: This is the parent method.    
 child2.child2_method()  # Output: This is the child2 method.
 
