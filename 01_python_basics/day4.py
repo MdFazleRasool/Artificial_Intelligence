@@ -70,27 +70,27 @@ developer1.display_work_hours()  # Output: Work hours: 9:00 AM to 5:00 PM
 
 #Type of Inheritance
 #1. Single Inheritance: A child class inherits from a single parent class.  
-class Parent:
+class Parent6:
     def parent_method(self):
         print("This is the parent method.")
-class Child(Parent):
+class Child6(Parent6):
     def child_method(self):
         print("This is the child method.")
-child1 = Child()
+child1 = Child6()
 child1.parent_method()  # Output: This is the parent method.
 child1.child_method()   # Output: This is the child method.
 
 #2. Multiple Inheritance: A child class inherits from multiple parent classes.
-class Parent1:
+class Parent7:
     def method1(self):
         print("This is method 1 from Parent1.") 
-class Parent2:
+class Parent8:
     def method2(self):
         print("This is method 2 from Parent2.")
-class Child(Parent1, Parent2):
+class Child7(Parent7, Parent8):
     def child_method(self):
         print("This is the child method.")
-child1 = Child()
+child1 = Child7()
 child1.method1()  # Output: This is method 1 from Parent1.
 child1.method2()  # Output: This is method 2 from Parent2.
 child1.child_method()  # Output: This is the child method.
@@ -99,14 +99,14 @@ child1.child_method()  # Output: This is the child method.
 class Grandparent:
     def grandparent_method(self):
         print("This is the grandparent method.")
-class Parent(Grandparent):
+class Parent10(Grandparent):
     def parent_method(self):
         print("This is the parent method.")
 
-class Child(Parent):
+class Child10(Parent10):
     def child_method(self):
         print("This is the child method.")
-child1 = Child()
+child1 = Child10()
 child1.grandparent_method()  # Output: This is the grandparent method.
 
 child1.parent_method()  # Output: This is the parent method.
@@ -114,21 +114,20 @@ child1.child_method()  # Output: This is the child method.
 
 
 #4. Hierarchical Inheritance: Multiple child classes inherit from a single parent class.
-class Parent:
+class Parent5(Parent10):
 
     def parent_method(self):
         print("This is the parent method.")
-class Child1(Parent):
-    def child1_method(self):
+class Child4(Parent5):
+    def child4_method(self):
         print("This is the child1 method.")
-class Child2(Parent):
+class Child3(Parent5):
     def child2_method(self):
         print("This is the child2 method.")
-child1 = Child1()
+child1 = Child3()
 
 child1.parent_method()  # Output: This is the parent method.
-child1.child1_method()  # Output: This is the child1 method.
-child2 = Child2()
+child2 = Child3()
 child2.parent_method()  # Output: This is the parent method.    
 child2.child2_method()  # Output: This is the child2 method.
 
