@@ -142,7 +142,13 @@ A single output can belong to **multiple classes simultaneously**.
 ### 1.3 - underfitting
 ![alt text](underfitting.png)
 
-### 1.4 - fix overfitting & underfitting
+### 1.4 - fix_overfitting_&_underfitting
+![alt text](fix_overfitting_&_underfitting.png)
 
-
+### 1.5 - regularization
+![alt text](regularization.png)
+  #### 1.5.1 - Lasso_Regression
+  ![alt text](lasso_regression.png)
+  #### 1.5.2 - ridge_regression
+  ![alt text](ridge_regression.png)
 
