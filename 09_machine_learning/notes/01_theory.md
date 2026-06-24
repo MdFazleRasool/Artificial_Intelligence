@@ -152,3 +152,13 @@ A single output can belong to **multiple classes simultaneously**.
   #### 1.5.2 - ridge_regression
   ![alt text](ridge_regression.png)
 
+  #### 1.5.3 LassoCV - in pllace of Lasso_Regression 
+  #### 1.5.4 ElasticNet 
+  ![alt text](ElasticNet.png)
+
+
+  ### important concepts covered->
+  ![alt text](important_concepts.png)
+
+
+# 📈 Logistic Regression  ->
