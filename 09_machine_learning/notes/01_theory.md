@@ -129,36 +129,38 @@ A single output can belong to **multiple classes simultaneously**.
 ---
 
 # 📈 Linear Regression  ->
+  ### Best Fit Line:- 
+  ![alt text](image/01_Best_Fit_Line.png)
 
 
 ## 1. Feature Engineering - Encoding ->()
-![alt text](FeatureEngineering.png)
+![alt text](image/FeatureEngineering.png)
 
 ### 1.1 - One Hot Encoding
 ### 1.2 - Interaction Features
 ### 1.3 - overfitting
-![alt text](overfitting.png)
+![alt text](image/overfitting.png)
 
 ### 1.3 - underfitting
-![alt text](underfitting.png)
+![alt text](image/underfitting.png)
 
 ### 1.4 - fix_overfitting_&_underfitting
-![alt text](fix_overfitting_&_underfitting.png)
+![alt text](image/fix_overfitting_&_underfitting.png)
 
 ### 1.5 - regularization
-![alt text](regularization.png)
+![alt text](image/regularization.png)
   #### 1.5.1 - Lasso_Regression
-  ![alt text](lasso_regression.png)
+  ![alt text](image/lasso_regression.png)
   #### 1.5.2 - ridge_regression
-  ![alt text](ridge_regression.png)
+  ![alt text](image/ridge_regression.png)
 
   #### 1.5.3 LassoCV - in pllace of Lasso_Regression 
   #### 1.5.4 ElasticNet 
-  ![alt text](ElasticNet.png)
+  ![alt text](image/ElasticNet.png)
 
 
   ### important concepts covered->
-  ![alt text](important_concepts.png)
+  ![alt text](image/important_concepts.png)
 
 
 # 📈 Logistic Regression  ->
