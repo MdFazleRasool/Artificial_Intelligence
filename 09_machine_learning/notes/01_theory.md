@@ -132,35 +132,59 @@ A single output can belong to **multiple classes simultaneously**.
   ### Best Fit Line:- 
   ![alt text](image/01_Best_Fit_Line.png)
 
+  ### Gradient Descent :-
+  ![alt text](image/02_Gradient_Descent01.png)
+  ![alt text](image/03_Gradient_Descent02.png)
+
 
 ## 1. Feature Engineering - Encoding ->()
-![alt text](image/FeatureEngineering.png)
+![alt text](image/04_FeatureEngineering.png)
 
 ### 1.1 - One Hot Encoding
 ### 1.2 - Interaction Features
 ### 1.3 - overfitting
-![alt text](image/overfitting.png)
+![alt text](image/05_overfitting.png)
 
 ### 1.3 - underfitting
-![alt text](image/underfitting.png)
+![alt text](image/06_underfitting.png)
 
 ### 1.4 - fix_overfitting_&_underfitting
-![alt text](image/fix_overfitting_&_underfitting.png)
+![alt text](image/07_fix_over-underfitting.png)
 
 ### 1.5 - regularization
-![alt text](image/regularization.png)
+![alt text](image/08_regularization.png)
   #### 1.5.1 - Lasso_Regression
-  ![alt text](image/lasso_regression.png)
+  ![alt text](image/09_lasso_regression.png)
+    
   #### 1.5.2 - ridge_regression
-  ![alt text](image/ridge_regression.png)
+  ![alt text](image/10_ridge_regression01.png)
+
+  ![alt text](image/11_ridge_regression02.png)
 
   #### 1.5.3 LassoCV - in pllace of Lasso_Regression 
   #### 1.5.4 ElasticNet 
-  ![alt text](image/ElasticNet.png)
+  ![alt text](image/12_ElasticNet.png)
 
 
   ### important concepts covered->
-  ![alt text](image/important_concepts.png)
+  ![alt text](image/13_important_concepts.png)
 
 
-# 📈 Logistic Regression  ->
+# 📈 Logistic_Regression  ->
+  ### - Summary of linear_regression
+  ![alt text](image/14_linear_regression02.png)
+  ![alt text](image/15_Logistic_Regression01.png)
+  #### 1.1 - Sigmoid Function
+
+  #### 1.2 - Cost_Function of Logistic_Regression
+  ![alt text](image/16_LR_Cost_Function.png)
+  ![alt text](image/17_LR_Cost_Function02.png)
+
+  # Standardization of data
+  ![alt text](image/18_Standardization.png)
+
+  ### 1.3 - Confusion Matrix
+  ![alt text](image/19_Confusion_Matrix.png)
+
+  #### 1.4 - Evaluation_matrix :- ( Accuracy, Precision, Recall, F1-Score )
+  ![alt text](image/20_Evaluation_Matrix.png)
