@@ -188,3 +188,33 @@ A single output can belong to **multiple classes simultaneously**.
 
   #### 1.4 - Evaluation_matrix :- ( Accuracy, Precision, Recall, F1-Score )
   ![alt text](image/20_Evaluation_Matrix.png)
+  ![alt text](image/21_Evaluation_Matrix02.png)
+
+  ## Naive Bayes Classifier
+  ![alt text](image/22_Naive_Bayes01.png)
+  ![alt text](image/23_Naive_Bayes02.png)
+  ### eg:-
+  ![alt text](image/24_Naive_Bayes_Example.png)
+  Types of Naive Bayes Classifier :-
+  ![alt text](image/25_Naive_Bayes_Types.png)
+
+## KNN - k Nearest Neighbors
+  ### steps to implement KNN :-
+   ![alt text](image/26_KNN_Steps.png)
+   ![alt text](image/27_KNN_Example.png)
+   ### - limitations of KNN
+   ![alt text](image/28_KNN_Limitations.png)
+
+   #### Valdation Techniques :- 
+   ![alt text](image/29_Validation_Techniques01.png)
+
+   ![alt text](image/30_Validation_Techniques02.png)
+
+   #### - CrossValidation :- 
+   ![alt text](image/31_CrossValidation.png)
+   ##### eg:- Hyperparameter Tuning
+   ##### - GridSearchCV
+   ##### - pipeline
+   ![alt text](image/32_Pipeline.png)
+
+  
