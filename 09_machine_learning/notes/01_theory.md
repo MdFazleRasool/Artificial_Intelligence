@@ -137,24 +137,24 @@ A single output can belong to **multiple classes simultaneously**.
   ![alt text](image/03_Gradient_Descent02.png)
 
 
-## 1. Feature Engineering - Encoding ->()
-![alt text](image/04_FeatureEngineering.png)
+  ## 1. Feature Engineering - Encoding ->()
+  ![alt text](image/04_FeatureEngineering.png)
 
-### 1.1 - One Hot Encoding
-### 1.2 - Interaction Features
-### 1.3 - overfitting
-![alt text](image/05_overfitting.png)
+  ### 1.1 - One Hot Encoding
+  ### 1.2 - Interaction Features
+  ### 1.3 - overfitting
+  ![alt text](image/05_overfitting.png)
 
-### 1.3 - underfitting
-![alt text](image/06_underfitting.png)
+  ### 1.3 - underfitting
+  ![alt text](image/06_underfitting.png)
 
-### 1.4 - fix_overfitting_&_underfitting
-![alt text](image/07_fix_over-underfitting.png)
+  ### 1.4 - fix_overfitting_&_underfitting
+  ![alt text](image/07_fix_over-underfitting.png)
 
-### 1.5 - regularization
-![alt text](image/08_regularization.png)
-  #### 1.5.1 - Lasso_Regression
-  ![alt text](image/09_lasso_regression.png)
+  ### 1.5 - regularization
+  ![alt text](image/08_regularization.png)
+    #### 1.5.1 - Lasso_Regression
+    ![alt text](image/09_lasso_regression.png)
     
   #### 1.5.2 - ridge_regression
   ![alt text](image/10_ridge_regression01.png)
@@ -210,7 +210,7 @@ A single output can belong to **multiple classes simultaneously**.
 
    ![alt text](image/30_Validation_Techniques02.png)
 
-   #### - CrossValidation :- 
+   #### - CrossValidation :-
    ![alt text](image/31_CrossValidation.png)
    ##### eg:- Hyperparameter Tuning
    ##### - GridSearchCV
@@ -218,3 +218,25 @@ A single output can belong to **multiple classes simultaneously**.
    ![alt text](image/32_Pipeline.png)
 
   
+
+
+
+
+  # 🌳 Decision Trees      ->          Regression & Classification 
+  ![alt text](image/33_Decision_Trees_01.png)
+  ### Entropy & Information Gain :- 
+   ![alt text](image/34_Entropy.png)
+   ### Gini Impurity :-
+   ![alt text](image/35_Gini_Impurity.png)
+   ### - impurity based on Entropy & Gini Impurity
+   ![alt text](image/36_Impurity_Comparison.png)
+   ### - Information Gain based on Entropy & Gini Impurity
+   ![alt text](image/37_Information_Gain.png)
+   #### - Pruning in Decision Trees
+   ![alt text](image/38_Pruning.png)
+   #### - Rules for Pruning :- 
+   ![alt text](image/39_Pruning_Rules.png)
+
+   #### - Decision Trees for Regression
+   ![alt text](image/40_Decision_Trees_Regression01.png)
+
