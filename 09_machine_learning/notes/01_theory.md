@@ -210,7 +210,7 @@ A single output can belong to **multiple classes simultaneously**.
 
    ![alt text](image/30_Validation_Techniques02.png)
 
-   #### - CrossValidation :- 
+   #### - CrossValidation :-
    ![alt text](image/31_CrossValidation.png)
    ##### eg:- Hyperparameter Tuning
    ##### - GridSearchCV
@@ -236,4 +236,7 @@ A single output can belong to **multiple classes simultaneously**.
    ![alt text](image/38_Pruning.png)
    #### - Rules for Pruning :- 
    ![alt text](image/39_Pruning_Rules.png)
+
+   #### - Decision Trees for Regression
+   ![alt text](image/40_Decision_Trees_Regression01.png)
 
