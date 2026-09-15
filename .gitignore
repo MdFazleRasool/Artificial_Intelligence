@@ -7,5 +7,5 @@
 10_deep_learning/RNN/IMDB_Dataset.csv
 
 11_Reinforcement_Learning/Theory/
-./Dataset
-./results
+12_Dataset/
+results/
